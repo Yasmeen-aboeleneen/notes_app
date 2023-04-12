@@ -7,9 +7,15 @@ class CustomAppBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return  Row(
 
+ children: [
+  Text('Notes',style: TextStyle(
+    fontFamily: 'Merriweather-Regular',
+    fontSize: 50,
+    
+  ),)
+ ],
 
 
-      
     );
   }
 }
