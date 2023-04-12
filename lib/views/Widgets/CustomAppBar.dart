@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'CustomIcon.dart';
+
 class CustomAppBar extends StatelessWidget {
   const CustomAppBar({super.key});
 
@@ -7,15 +9,23 @@ class CustomAppBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return  Row(
 
- children: [
+ children:const [
+  SizedBox(height: 100,),
+
   Text('Notes',style: TextStyle(
     fontFamily: 'Merriweather-Regular',
     fontSize: 50,
     
-  ),)
+  ),),
+Spacer(flex: 2,),
+
+  CustomSearchIcon()
  ],
 
 
     );
   }
 }
+
+
+ 
