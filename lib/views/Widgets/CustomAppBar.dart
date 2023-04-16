@@ -13,7 +13,7 @@ class CustomAppBar extends StatelessWidget {
   SizedBox(height: 100,),
 
   Text('Notes',style: TextStyle(
-    fontFamily: 'Merriweather-Regular',
+    
     fontSize: 50,
     
   ),),

@@ -75,9 +75,10 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: Merriweather-Regular
+    - family: RobotoCondensed-Regular
       fonts:
-        - asset: assets/fonts/Merriweather-Regular.ttf
+        
+        - asset: assets/fonts/RobotoCondensed-Regular.ttf
    
   
   # For details regarding fonts from package dependencies,
