@@ -14,9 +14,8 @@ class Notes extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        brightness: Brightness.dark,
-        fontFamily: 'assets/fonts/RobotoCondensed-Regular.ttf'
-      ),
+          brightness: Brightness.dark,
+          fontFamily: 'assets/fonts/RobotoCondensed-Regular.ttf'),
       home: const NotesView(),
     );
   }
